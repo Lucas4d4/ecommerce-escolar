@@ -385,7 +385,8 @@ footer{
 
 .main-contacto{
     flex-direction: row;
-    padding-bottom: 2rem;
+    padding: 8rem 0;
+    min-height: 100vh;
 }
 
 .article-info-contacto, .article-info-redes, .form-contacto,
@@ -585,6 +586,7 @@ p, span, label, li{
 
     .main-contacto{
         flex-direction: column;
+
     }
 
     .section-info-contacto, .form-contacto{
