@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "imagen":"images/mochila-producto.png",
+        "nombre":"Mochila escolar",
+        "descripcion":"Mochila espaciosa con compartimentos internos para útiles, libros y notebook.",
+        "precio":18500
+    },
+    {
+        "id":2,
+        "imagen":"images/cartuchera-producto.png",
+        "nombre":"Cartuchera",
+        "descripcion":"Cartuchera amplia, ideal para lapices, biromes y correctore. Cierre resistente",
+        "precio":4200
+    },
+    {
+        "id":3,
+        "imagen":"images/carpeta-producto.jpg",
+        "nombre":"Carpeta N°3",
+        "descripcion":"Carpeta tamaño N°3. Ideal para organizar hojas, separadores y trabajos prácticos.",
+        "precio":3800
+    },
+    {
+        "id":4,
+        "imagen":"images/set-hojas-producto.jpg",
+        "nombre":"Hojas rayadas N°3",
+        "descripcion":"Pack de 100 hojas rayadas tamaño N°3, perforadas para carpetas.",
+        "precio":2500
+    },
+    {
+        "id":5,
+        "imagen":"images/lapices-colores-producto.jpg",
+        "nombre":"Pack lapices colores",
+        "descripcion":"Set de 12 lápices de colores vivos, mina resistente y fácil de afilar.",
+        "precio":3100
+    }
+]
