@@ -25,15 +25,28 @@
                     href="../index.html">Inicio</a>
                 </li>
                 <li>
-                <a class="bg-color-boton a-modify text-light-title" 
-                href="./contacto.html">Contacto</a>
+                    <a class="a-alter" 
+                    href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a class="bg-color-boton a-modify text-light-title" 
+                    href="./carrito.html">Mi Carrito 🛒</a>
                 </li>
             </ul>
         </nav>
         
     </header>
-    <main class="main-contacto">
-        <section class="section-info-contacto">
+    <main>
+        <section class="section-carrito">
+            <div class="section-carrito-modify">
+                <a href="./carrito.html">
+                    <img src="../images/carrito-de-compras.png" alt="Logo de carrito">
+                </a>
+                <span id="contador" class="contador"></span>
+            </div>
+        </section>
+        <div class="content-contacto">
+            <section class="section-info-contacto bg-color-secondary">
             <h1 class="text-color-title">¿Tenés dudas?</h1>
             <h2 class="text-color-title">Escribinos o contáctanos</h2>
             <article class="article-info-contacto">
@@ -53,7 +66,7 @@
                 </div>
             </article>
         </section>
-        <section class="section-contacto-form">
+        <section class="section-contacto-form bg-color-secondary">
             <form action="https://formspree.io/f/xwlvvlza" method="POST"
             class="form-contacto">
                 <div class="content-form">
@@ -80,6 +93,8 @@
                 </div>
             </form>
         </section>
+        </div>
+        
     </main>
     <footer class="bg-color-footer text-light-title">
         <section class="sections-general">
@@ -107,6 +122,7 @@
                     <ul>
                         <li><a class="text-light-title" href="../index.html">Inicio</a></li>
                         <li><a class="text-light-title" href="./contacto.html">Contacto</a></li>
+                        <li><a class="text-light-title" href="./carrito.html">Mi Carrito</a></li>
                     </ul>
                 </nav>
                 </article>
@@ -132,5 +148,6 @@
     
         <p>© 2026 EscolarYa. Todos los derechos reservados.</p>
     </footer>
+    <script src="../js/contacto.js" type="module"></script>
 </body>
 </html>
